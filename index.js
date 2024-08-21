@@ -99,11 +99,11 @@ desencriptarbtn.addEventListener("click", e=>{
     }
 
     else{
-        texto = texto.replace(/ai/mg, "a");
-        texto = texto.replace(/enter/mg, "e");
-        texto = texto.replace(/imes/mg, "i");
+        texto = texto.replace(/enter/mg, "e"); // Reemplazar "enter" por "e" primero
         texto = texto.replace(/ober/mg, "o");
+        texto = texto.replace(/imes/mg, "i");
         texto = texto.replace(/ufat/mg, "u");
+        texto = texto.replace(/ai/mg, "a"); // Reemplazar "ai" por "a" al final
 
         respuesta.innerHTML = texto;
         copiarbtn.style.visibility = "inherit";
