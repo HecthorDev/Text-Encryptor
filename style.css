@@ -1,0 +1,324 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Marvel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Global*/
+:root {
+    --font: #ffffff;
+    --Back: #f3f5fc;
+    --DBlue: #0a3871;
+    --Gray: #495057;
+    --Shadow: rgba(0,0,0,0.08);
+    --WBlue: #d8dfe8; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marvel', sans-serif;
+    text-decoration: none;
+    background-color: var(--Back);
+}
+
+::selection {
+    background: var(--DBlue);
+    color: var(--Back);
+}
+
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Header*/
+header {
+    position: absolute;
+    margin: 40px 0px 0px 40px;
+}
+
+header .logo-alura {
+    display: flex;
+    align-items: flex-start;
+    width: 120px;
+    height: 48px;
+}
+
+/*Main*/
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.encriptador {
+    width: 60%;
+    margin: 168px 0px 0px 140px;
+    background: transparent;
+}
+
+.encriptar {
+    width: 660px;
+    height: 288px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.encriptar::placeholder, :focus {
+    color: var(--DBlue);
+}
+
+.encriptador-Alerta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    position: absolute;
+    top: 500px;
+}
+
+.texto-alerta {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    opacity: 0,8;
+    color: var(--Gray);
+}
+
+.contenedor-encriptador {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 525px;
+}
+
+.encriptar-btn {
+    width: 325px;
+    height: 65px;
+    padding: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--Back);
+    background: var(--DBlue);
+    border: 1px solid var(--DBlue);
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 0px 20px 30px -5px var(--Shadow);
+}
+
+.encriptar-btn {
+    box-shadow: 2px 2px 4px var(--font);
+    inset: -3px -4px 8px var(--DBlue);
+    color: var(--WBlue);
+}
+
+.desencriptar-btn {
+    width: 325px;
+    height: 65px;
+    padding: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--DBlue);
+    background: var(--WBlue);
+    border: 1px solid var(--DBlue);
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 0px 20px 30px -5px var(--Shadow);
+}
+
+.copiar-btn, .desencriptar-btn {
+    box-shadow: 2px 2px 4px var(--Shadow);
+    inset: -3px -4px 8px var(--WBlue);
+    color: var(--DBlue);
+}
+
+.tarjeta {
+    width: 400px;
+    height: 600px;
+    background: var(--font);
+    box-shadow: 10px 25px 30px -8px var(--Shadow);
+    position: relative;
+    margin-top: 40px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.contenedor-tarjeta {
+    width: 250px;
+    margin: auto;
+    margin-top: 50%;
+    background: var(--font);
+}
+
+.img-ironman {
+    background: var(--font);
+}
+
+.texto1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    color: black;
+    background: var(--font);
+}
+
+.texto2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--Gray);
+    background: var(--font);
+}
+
+.evaluar {
+    width: 100%;
+    height: 485px;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--DBlue);
+    background: transparent;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border: none;
+    resize: none;
+}
+
+.evaluar:focus {
+    outline: none;
+}
+
+.copiar-btn {
+    width: 224px;
+    height: 67px;
+    margin: 23px;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    visibility: hidden;
+    padding: 24px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background: var(--WBlue);
+    border: 1px solid var(--DBlue);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.copiar-btn:hover, .desencriptar-btn:hover, .encriptar-btn:hover {
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Media Responsive */
+
+@media (max-width: 1250px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .encriptador {
+        margin: 168px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contenedor-encriptador {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: inherit;
+    }
+
+    .encriptador-Alerta {
+        position: inherit;
+        margin: 15px;
+    }
+
+    .tarjeta {
+        width: 665px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-tarjeta {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        bottom: 30%;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .img-ironman {
+        display: none;
+    }
+
+    .copiar-btn {
+        position: inherit;
+        width: 100%;
+    }
+
+    .evaluar {
+        width: 100%;
+        height: 210px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+    header .logo-alura {
+        width: 100%;
+        background: var(--Back);
+        padding: 2px;
+    }
+
+    .encriptar {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .contenedor-encriptador {
+        display: grid;
+        gap: 21px;
+    }
+
+    .tarjeta {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+}

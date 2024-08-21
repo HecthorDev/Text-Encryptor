@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.svg">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <!--LogoAlura-->
+    <header>
+        <a href="#" rel="">
+            <img src="images/aluralogo.svg" alt="Logotipo Alura" class="logo-alura">
+        </a>
+    </header>
+    <!--Main-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí ✍️"></textarea>
+            <div class="encriptador-Alerta">
+                <img src="images/alert.svg" alt="Imagen de Alerta" class="img-alerta">
+                <p class="texto-alerta">Solo letras minúsculas y sin acentos</p>
+            </div>
+    <!--Botones-->
+            <div class="contenedor-encriptador">
+                <button type="submit" class="encriptar-btn" id="encriptar-btn">Encriptar</button>
+                <button type="submit" class="desencriptar-btn" id="desencriptar-btn">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="contenedor-tarjeta">
+                <img src="images/ironman.gif" alt="Imagen Ironman" class="img-ironman">
+                <h1 class="texto1">Ningún mensaje fue encontrado</h1>
+                <p class="texto2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <!--Boton Copiar-->
+            <button type="submit" class="copiar-btn">Copiar</button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
