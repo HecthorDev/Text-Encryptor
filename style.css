@@ -322,3 +322,17 @@ main {
         align-items: center;
     }
 }
+
+@media (max-width: 375px) {
+    .copiar-btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copiar-btn {
+        width: 150px;
+        font-size: 20px;
+        padding: 15px;  
+        left: 20%;
+    }
+}
