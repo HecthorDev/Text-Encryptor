@@ -1,22 +1,23 @@
 <h1 align="center">Encriptador y Desencriptador de texto</h1>
 
-**Descripción**
 --------------
+**Descripción**
+
 ¡Mantén tus secretos a salvo! Esta aplicación te permite encriptar y desencriptar textos, permitiéndote intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
-### **Requisitos**
 --------------
+### **Requisitos**
 
 * **Acceso**: Utiliza el enlace de Github para acceder a la aplicación.
 * https://hecthordev.github.io/Text-Encryptor/
 
-### **Instalación**
 --------------
+### **Instalación**
 
 * **Multiplataforma**: Puedes utilizar esta aplicación en ordenadores, tablets y celulares.
 
-### **Uso**
 --------------
+### **Uso**
 
 #### Paso a paso
 
