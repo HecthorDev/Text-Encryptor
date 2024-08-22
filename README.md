@@ -24,7 +24,7 @@
 
 2. **Introduce el texto**: Escribe el texto que deseas encriptar o desencriptar en el campo de texto proporcionado, da click en encriptar el texto utilizando el botón "Encriptar".
 
-3. **Selecciona Copiar**: Al seleccionar "Encriptar", automáticamente aparecerá la opción "Copiar" bajo el texto encriptado. Haz clic en "Copiar" para seleccionar y copiar automáticamente el texto encriptado, luego puedes pegarlo en el espacio deseado presionando las teclas "Ctrl + V".
+3. **Selecciona Copiar**: Al seleccionar "Encriptar", automáticamente aparecerá la opción "Copiar" bajo el texto encriptado. Haz clic en "Copiar" para seleccionar y copiar automáticamente el texto encriptado, luego puedes pegarlo en el espacio deseado presionando "Ctrl + V".
 
 ![](https://github.com/HecthorDev/Text-Encryptor/blob/master/imagesreadme/instructions.gif)
 
