@@ -1,6 +1,5 @@
 <h1 align="center">Encriptador y Desencriptador de texto</h1>
 
---------------
 **Descripción**
 
 ¡Mantén tus secretos a salvo! Esta aplicación te permite encriptar y desencriptar textos, permitiéndote intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
